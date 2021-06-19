@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function is_array(a) {
+        return Array.isArray(a);
+    }
+    function array_clone(a) {
+        //    return {...a}; (first method)
+        return a.valueof();
+    }
+    //    function firstN_element(a,b){
+    //        if(Array.isArray(a)){
+    //            for(var i=0;i<)
+    //        }
+    function Array_to_string(a) {
+        return a.toString();
+    }
+
+    function frequancy() {
+        var a = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+        var obj = { mf: 0, element: -1 };
+        var fre = 0;
+        for (i = 0; i < a.length; i++) {
+            for (j = i + 1; j < a.length - 1; j++) {
+                {
+                    if (arr1[i] === arr1[j])
+                        obj.mf++;
+                    if (fre < obj.mf) {
+                        obj.mf = fre;
+                        element = a[i];
+                    }
+                       fre=0;
+                }
+            }
+        }
+        return obj;
+    }
+
+
+</script>
+
+<body>
+
+</body>
+
+</html>
